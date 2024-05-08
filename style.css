@@ -1,0 +1,36 @@
+*{
+    overflow-x: hidden;
+    margin:20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.opening-txt{
+    margin-bottom: 5%;
+}
+
+.projects {
+    width: 100%;
+}
+
+.hr-format {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card {
+    width: 50%; 
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+}
+
+.card-link {
+    text-decoration: none; 
+    color: black;
+}
+
+.card-link:hover {
+    color: blue; 
+}
