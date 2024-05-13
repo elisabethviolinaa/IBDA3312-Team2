@@ -1,36 +1,71 @@
-*{
-    overflow-x: hidden;
-    margin:20px;
-    font-family: 'Courier New', Courier, monospace;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
-.opening-txt{
-    margin-bottom: 5%;
+.opening-txt {
+    text-align: center;
+    padding: 50px 0;
+    color: #333;
 }
-
+.opening-txt h1 {
+    font-size: 5rem;
+}
 .projects {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 .hr-format {
     display: flex;
-    justify-content: space-between; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .card {
-    width: 50%; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 800px; /* Adjust width as needed */
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card img {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    max-height: 500px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h2 {
+    margin-left: 5%;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card p {
+    margin-top: 0%;
+    padding-left: 5%;
+    font-size: 1.2rem;
+    color: #666;
 }
 
 .card-link {
-    text-decoration: none; 
-    color: black;
+    text-decoration: none;
+    color: inherit;
 }
 
 .card-link:hover {
-    color: blue; 
+    text-decoration: underline;
+    color: #007bff;
 }

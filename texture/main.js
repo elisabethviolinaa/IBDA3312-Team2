@@ -62,7 +62,7 @@ var getCoords = () => {
 // Load the image
 var texture;
 var image = new Image();
-image.src = '../assets/filters.jpg';
+image.src = '../assets/property.jpg';
 
 var AR = null;
 //event handler onload. When the first image is loaded, get aspect ratio, get coordinates, create and bind a texture
@@ -180,25 +180,3 @@ initializeEvents(gl,
     render();
     }
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
