@@ -13,4 +13,5 @@ Dalam proyek ini, kami membuat 3 program dengan memanfaatkan WebGL, yakni:
 - Gunakan Live Server / Servez untuk menjalankan index.html terluar
 - Tunggu hingga menampilkan interface berikut
   ![image](https://github.com/elisabethviolinaa/IBDA3312-Team2/assets/112562473/a32c3067-0454-4742-9335-7f1826e05e83)
+  ![image](https://github.com/elisabethviolinaa/IBDA3312-Team2/assets/112562473/0bfe922e-40b5-454d-ba1f-6031538d63a0)
 - Pilih menu yang ingin Anda lihat
