@@ -34,7 +34,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
-    width: 800px; /* Adjust width as needed */
+    width: 600px; /* Adjust width as needed */
 }
 
 .card:hover {
@@ -43,7 +43,7 @@ body {
 
 .card img {
     width: 100%;
-    max-height: 500px;
+    max-height: 400px;
     border-radius: 8px 8px 0 0;
 }
 
